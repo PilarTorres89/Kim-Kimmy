@@ -1,6 +1,6 @@
 # Kim-Kimmy Automation Framework
 
-This repository contains automated test cases for Yalla Baby e-Commerce webpage using Cypress as framework.
+This repository contains automated test cases for Kim & Kimmy e-Commerce webpage using Cypress as framework.
 
 Getting Started
 Make sure to have node installed Cross verify the Node.js installation by running the command:
