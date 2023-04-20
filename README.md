@@ -47,7 +47,6 @@ npm run cy:open
 This will get the Cypress UI opened. Pick E2E Testing and choose a browser (Chrome or Electron were mainly used for this framework)
 The spec files containing the tests are placed within the cypress/e2e folder:
 
-![Alt text](https://drive.google.com/uc?id=1Ek-_j7UR9sqSWIm_vRMPqn7QsChyjuBp)
 
 ## POM Structure
 
