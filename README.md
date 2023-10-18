@@ -62,5 +62,5 @@ But in case you want to start from scratch, you can
 |         |         |
 | :-----: | :-----: |
 | Node.js | 12.16.2 |
-|   Npm   | 6.14.4  |
+|   Npm   | 9.8.1  |
 | Cypress | 10.7.10 |
