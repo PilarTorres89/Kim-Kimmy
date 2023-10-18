@@ -8,13 +8,13 @@ Make sure to have node installed
 Cross verify the Node.js installation by running the command:
 
 ```
-node –version
+node –v
 ```
 
 To verify the npm version run the following command:
 
 ```
-npm –version
+npm –v
 ```
 
 ## Download the repository
