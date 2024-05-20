@@ -9,4 +9,11 @@
     style.setAttribute("data-hide-command-log-request", "");
     app.document.head.appendChild(style);
   }
-  
+  // Data
+const sets = require("../fixtures/KidsSets.json");
+
+beforeEach(() => {
+  cy.visit("https://kim-and-kimmy-stg.myshopify.com/");
+    BasePage.pause(50000);
+    Modal.closeModal();
+});
