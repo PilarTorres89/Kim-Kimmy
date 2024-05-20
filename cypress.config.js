@@ -4,7 +4,7 @@ module.exports = defineConfig({
   e2e: {
     watchForFileChanges: false,
     setupNodeEvents(on, config) {},
-    baseUrl: 'https://kim-and-kimmy-stg.myshopify.com/'
+    baseUrl: 'https://www.deltachildren.com/'
     },
     defaultCommandTimeout: 15000,
     chromeWebSecurity: false,
