@@ -8,6 +8,6 @@ module.exports = defineConfig({
     },
     defaultCommandTimeout: 15000,
     chromeWebSecurity: false,
-    projectId: 'ds6q8s',
+    projectId: 'ge72vh',
 });
 
