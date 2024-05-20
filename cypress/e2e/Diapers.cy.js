@@ -9,8 +9,13 @@
     style.setAttribute("data-hide-command-log-request", "");
     app.document.head.appendChild(style);
   }
-  // Data
-const sets = require("../fixtures/KidsSets.json");
+  // Imports
+import BasePage from "../page-objects/BasePage";
+import Modal from "../page-objects/comoponents/modal";
+import NavBar from "../page-objects/comoponents/navbar";
+import CartPage from "../page-objects/pages/CartPage";
+import ProductDetailsPage from "../page-objects/pages/ProductDetailsPage";
+import ProductsList from "../page-objects/pages/ProductsList";
 
 beforeEach(() => {
   cy.visit("https://kim-and-kimmy-stg.myshopify.com/");
