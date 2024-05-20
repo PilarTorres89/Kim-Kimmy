@@ -1,7 +1,7 @@
 {
-  "name": "delta-children",
+  "name": "Kim & Kimmy",
   "version": "1.0.0",
-  "description": "E2E Framework Delta Children",
+  "description": "E2E Framework Kim & Kimmy",
   "main": "index.js",
   "scripts": {
     "test": "Automation",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PilarTorres89/Delta-Children.git"
+    "url": "git+https://github.com/PilarTorres89/Kim-Kimmy.git"
   },
   "keywords": [
     "QA",
@@ -19,11 +19,11 @@
   "author": "Pilar Torres",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PilarTorres89/Delta-Children/issues"
+    "url": "https://github.com/PilarTorres89/Kim-Kimmy/issues"
   },
-  "homepage": "https://github.com/PilarTorres89/Delta-Children#readme",
+  "homepage": "https://github.com/PilarTorres89/Kim-Kimmy#readme",
   "devDependencies": {
-    "cypress": "^13.3.2",
+    "cypress": "^13.8.1",
     "cypress-if": "^1.10.5"
   }
 }
