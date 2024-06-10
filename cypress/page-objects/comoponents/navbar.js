@@ -14,14 +14,6 @@ export default class NavBar extends BasePage {
     cy.get(this.menu).contains(this.optionMenuCat1).click();
   }
 
-  static clickMenuCategory(cat) {
-    cy.get(this.menu).contains(this.optionMenuCat2).click();
-  }
-  
-  static clickMenuCategory(cat) {
-    cy.get(this.menu).contains(this.optionMenuCat3).click();
-  }
-
   static clickMenuSubCategory(subCat) {
     cy.get(this.optionMenuSubCat).contains(subCat).click();
   }
