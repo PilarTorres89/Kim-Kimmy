@@ -14,11 +14,19 @@ import BasePage from "../page-objects/BasePage";
 import Modal from "../page-objects/comoponents/modal";
 import NavBar from "../page-objects/comoponents/navbar";
 import CartPage from "../page-objects/pages/CartPage";
+import CheckoutPage from "../page-objects/pages/CheckoutPage";
 import ProductDetailsPage from "../page-objects/pages/ProductDetailsPage";
 import ProductsList from "../page-objects/pages/ProductsList";
 
 beforeEach(() => {
   cy.visit("https://kim-and-kimmy-stg.myshopify.com/");
-    BasePage.pause(50000);
+    BasePage.pause(2000);
     Modal.closeModal();
+});
+it("select shop diapers", () => {
+  NavBar.clickMenuCategory();
+  ProductsList.selectProduct();
+  ProductDetailsPage.selectVariants();
+  ProductDetailsPage.addCart();
+  CheckoutPage.clickbutton();
 });
