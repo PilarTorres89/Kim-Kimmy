@@ -42,4 +42,5 @@ it("select shop diapers", () => {
   CheckoutPage.inputArea();
   CheckoutPage.selectCOD();
   CheckoutPage.clickcompleteorder();
+  
 });
